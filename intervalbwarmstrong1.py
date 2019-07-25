@@ -1,5 +1,5 @@
 n,q=map(int,input().split())
-for i in range(n,q+1):
+for i in range(n,q):
 	sum=0
 	temp=i
 	while temp>0:
