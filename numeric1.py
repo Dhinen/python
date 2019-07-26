@@ -4,5 +4,5 @@ for a in n:
     print("yes")
     break
   else:
-   print("no") 
+   print("No") 
    break 
