@@ -1,5 +1,8 @@
 n=input()
-if(n.isnumeric())==True:
-  print("yes")
-else:
-   print("no")  
+for a in n:
+  if(a.isnumeric())==True:
+    print("yes")
+    break
+  else:
+   print("no") 
+   break 
