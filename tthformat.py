@@ -1,0 +1,5 @@
+n,m=input().split()
+a,b=input().split()
+d=int(n)-int(a)
+e=int(m)-int(b)
+print(abs(d),abs(e))
