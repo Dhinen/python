@@ -1,6 +1,6 @@
 n=input()
 
 if n.isalpha()==True:
-  print("alphabet")
+  print("Alphabet")
 else:
   print("No")  
