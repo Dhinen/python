@@ -1,5 +1,5 @@
 n=int(input())
 if n>1 and n<10:
-  print("Yes")
+  print("yes")
 else:
-  print("No")  
+  print("no")  
