@@ -8,6 +8,6 @@ for i in n:
     c=1
     print(c)
 if d==1 and c==1:
-  print("yes")  
+  print("Yes")  
 else:
-  print("no")    
+  print("No")    
