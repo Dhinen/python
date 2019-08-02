@@ -1,4 +1,4 @@
-n,l=input().split()
+s,l=input().split()
 m=[str(i) for i in input().split()]
 k=[str(i) for i in input().split()]
 d=0
