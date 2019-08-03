@@ -1,2 +1,2 @@
-s=input()
-print(s,end=".")
+a=input()
+print(a,end=".")
