@@ -1,3 +1,3 @@
-n=str(input())
-x=n[::-1]
-print(x)
+s=str(input())
+y=s[::-1]
+print(y)
