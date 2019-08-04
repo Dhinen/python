@@ -2,9 +2,9 @@ n,k=map(int,input().split())
 m=[str(i) for i in input().split()]
 d=[]
 s=0
-x=""
+l=""
 if len(m)==1:
-  x=m
+  l=m
 else:  
  for i in range(len(m)-k,len(m)): 
   if len(m)<k:
@@ -18,6 +18,6 @@ else:
   d.append(m[i])     
 for i in d:
   print(i,end=" ") 
-for i in x:
+for i in l:
   print(i)   
 
