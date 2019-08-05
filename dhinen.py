@@ -26,3 +26,14 @@ for i in m:
 for i in x:
   print(i,end="")
 
+n=[str(i) for i in input().split()]
+for i in range(0,len(n)):
+  temp=n[i]
+  j=i-1
+  while j>=0 and len(temp)<len(n[j]):
+    n[j+1]=n[j]
+    j-=1
+  n[j+1]=temp  
+for i in range(0,len(n)):
+  
+    
