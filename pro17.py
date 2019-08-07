@@ -10,7 +10,9 @@ for i in range(n+1):
 d=0   
 for i in range(len(x)):
   d=d+x[i]
-if d<=k:
+if d==0:
+  print("no")
+elif d<=k and d!=0:
   print("yes")
 else:
   print("no")
