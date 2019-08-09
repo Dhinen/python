@@ -1,18 +1,11 @@
-n,k=map(int,input().split())
-m=[int(i) for i in input().split()]
-x=[]
-for i in range(n+1):
-  if i==0:
-    for i in range(0,len(m)):
-      for j in range(i+1,len(m)):
-       if m[i]==m[i+1] and  m[i] is not x:
-         x.append(m[i])
-d=0   
-for i in range(len(x)):
-  d=d+x[i]
-if d==0:
-  print("no")
-elif d<=k and d!=0:
+x,j=map(int,input().split())
+y=list(map(int,input().split()))[:x]
+count=0
+for k in range(0,len(y)-1):
+  for sec in range(k+1,len(y)-1):
+    if(y[k]+y[sec]==j):
+      count+=1  
+if count==1:
   print("yes")
 else:
   print("no")
