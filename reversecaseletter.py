@@ -1,4 +1,4 @@
-n=input()
+N=input()
 d=0
 k=0
 a=[]
