@@ -1,4 +1,5 @@
 N=int(input())
-n,m=map(int,input().split())[:N]
-k=n & m
-print(k)
+m=[int(i) for i in input().split()][:N]
+for i in range(1,len(m)):
+  d=m[i] & m[i-1]
+  print(d)  
